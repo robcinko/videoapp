@@ -1,0 +1,51 @@
+{
+  "name": "videoapp",
+  "version": "1.0.0",
+  "description": "video library mern application",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "video",
+    "application",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "robco",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-search-field": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
